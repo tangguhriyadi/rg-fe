@@ -25,13 +25,13 @@ export default async function Image() {
                     backgroundColor: "#fff",
                     fontSize: 32,
                     fontWeight: 600,
-                    padding: "48px",
                 }}
             >
-                {/* eslint-disable-next-line */}
-                <img src="/logo-dummy.png" alt="Logo" />
+                <div style={{ marginTop: 40 }}>SmartPlace ! </div>
+                <p>Largest Smartphone Marketplace in This Planet !</p>
             </div>
         ),
+
         // ImageResponse options
         {
             ...size,
